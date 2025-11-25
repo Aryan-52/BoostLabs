@@ -54,47 +54,61 @@ And also:
 
 ## 📁 Folder Structure
 
-
 boostlabs/
-│── public/
-│ └── assets/
-│ ├── logo.png
-│ ├── hero_car.png
-│ ├── turbo_kit.png
-│ ├── rims_set.png
-│ ├── suspension.png
-│ ├── brake_kit.png
-│ ├── exhaust.png
-│ ├── model_911_gt3rs.png
-│ ├── model_cayman.png
-│ ├── model_918spyder.png
-│ └── model_targa.png
 │
-│── src/
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ ├── Products.jsx
-│ │ ├── ProductDetails.jsx
-│ │ ├── Cart.jsx
-│ │ ├── Checkout.jsx
-│ │ ├── Models.jsx
-│ │ ├── Login.jsx
-│ │ └── OrderConfirmation.jsx
-│ ├── context/
-│ │ └── CartContext.jsx
-│ ├── ui/
-│ │ ├── Navbar.jsx
-│ │ ├── Footer.jsx
-│ │ ├── ProductCard.jsx
-│ │ ├── Notification.jsx
-│ │ └── FallbackImage.jsx
-│ ├── styles/
-│ │ └── App.css
-│ ├── productsData.js
-│ ├── App.jsx
-│ └── main.jsx
+├── public/
+│   └── assets/
+│       ├── logo.png
+│       ├── hero_car.png
+│       ├── speed_lines.png
+│       ├── turbo_kit.png
+│       ├── exhaust.png
+│       ├── rims_set.png
+│       ├── suspension.png
+│       ├── brake_kit.png
+│       ├── model_911_gt3rs.png
+│       ├── model_918spyder.png
+│       ├── model_cayman.png
+│       └── model_targa.png
 │
-└── package.json
+├── src/
+│   ├── assets/                # (Optional - only if using imported assets)
+│   │   └── react.svg
+│   │
+│   ├── context/
+│   │   └── CartContext.jsx    # Global state for cart management
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── ProductDetails.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── OrderConfirmation.jsx
+│   │   ├── Models.jsx
+│   │   ├── Login.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── ui/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── Notification.jsx
+│   │   └── FallbackImage.jsx
+│   │
+│   ├── styles/
+│   │   └── App.css            # Main global stylesheet
+│   │
+│   ├── productsData.js        # Product list with images + specs
+│   ├── App.jsx                # Main app component with routing
+│   └── main.jsx               # React + Vite entry point
+│
+├── index.html                  # Vite HTML entry
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── .gitignore
+└── README.md
 
 ---
 
