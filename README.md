@@ -54,6 +54,7 @@ And also:
 
 ## 📁 Folder Structure
 
+```txt
 boostlabs/
 │
 ├── public/
@@ -72,11 +73,8 @@ boostlabs/
 │       └── model_targa.png
 │
 ├── src/
-│   ├── assets/                # (Optional - only if using imported assets)
-│   │   └── react.svg
-│   │
 │   ├── context/
-│   │   └── CartContext.jsx    # Global state for cart management
+│   │   └── CartContext.jsx         # Global state for cart
 │   │
 │   ├── pages/
 │   │   ├── Home.jsx
@@ -97,20 +95,20 @@ boostlabs/
 │   │   └── FallbackImage.jsx
 │   │
 │   ├── styles/
-│   │   └── App.css            # Main global stylesheet
+│   │   └── App.css                 # Main global stylesheet
 │   │
-│   ├── productsData.js        # Product list with images + specs
-│   ├── App.jsx                # Main app component with routing
-│   └── main.jsx               # React + Vite entry point
+│   ├── productsData.js             # Product list (images + specs)
+│   ├── App.jsx                     # Main app + routes
+│   └── main.jsx                    # React + Vite entry point
 │
-├── index.html                  # Vite HTML entry
+├── index.html                      # Vite HTML entry file
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
 ├── .gitignore
 └── README.md
+```
 
----
 
 ## 🧰 Tech Stack
 
