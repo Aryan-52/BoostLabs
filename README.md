@@ -1,20 +1,134 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 BoostLabs – Porsche Performance Parts Store  
+### _A Premium React + Vite E-Commerce UI – WT Practical 6_
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BoostLabs is a modern Porsche-themed performance parts store built using **React (Vite)**.  
+It delivers a clean automotive UI with browsing, filtering, cart, checkout, and order confirmation.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**  
+👉 https://boost-labs.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏎️ Product & Model Interface
+- Modern Porsche-inspired dark theme  
+- Product grid with equal height cards  
+- Model selector with modal warnings for unavailable models (GT4, Targa)  
+- Product Details page with specs, features, compatibility  
 
-## Expanding the ESLint configuration
+### 🛒 Advanced Cart System
+- Add to Cart  
+- Remove items  
+- Update quantity  
+- Auto price calculations  
+- Toast notifications  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# BoostLabs
->>>>>>> 76e7315f4850e167b3c0ac28e227106d1964c228
+### 💳 Checkout with Multiple Payment Methods
+BoostLabs includes a polished multi-option checkout:
+
+- 💵 Cash on Delivery (COD)
+- 📲 UPI (GPay / PhonePe / Paytm)
+- 💳 Credit/Debit Card
+- 🏦 NetBanking
+
+And also:
+- Form validation  
+- Payment-specific input fields  
+- Order details summary  
+- Auto redirect to Confirmation  
+
+### 📦 Order Confirmation Page
+- Shows each item purchased  
+- Thumbnail images  
+- Shipping information  
+- Payment method (cleanly formatted)  
+- Total price + timestamp  
+
+### 🚫 NotFound (404) as Modal
+- Custom dark-themed popup  
+- Smooth overlay  
+- Matches Porsche UI  
+
+---
+
+## 📁 Folder Structure
+
+
+boostlabs/
+│── public/
+│ └── assets/
+│ ├── logo.png
+│ ├── hero_car.png
+│ ├── turbo_kit.png
+│ ├── rims_set.png
+│ ├── suspension.png
+│ ├── brake_kit.png
+│ ├── exhaust.png
+│ ├── model_911_gt3rs.png
+│ ├── model_cayman.png
+│ ├── model_918spyder.png
+│ └── model_targa.png
+│
+│── src/
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Products.jsx
+│ │ ├── ProductDetails.jsx
+│ │ ├── Cart.jsx
+│ │ ├── Checkout.jsx
+│ │ ├── Models.jsx
+│ │ ├── Login.jsx
+│ │ └── OrderConfirmation.jsx
+│ ├── context/
+│ │ └── CartContext.jsx
+│ ├── ui/
+│ │ ├── Navbar.jsx
+│ │ ├── Footer.jsx
+│ │ ├── ProductCard.jsx
+│ │ ├── Notification.jsx
+│ │ └── FallbackImage.jsx
+│ ├── styles/
+│ │ └── App.css
+│ ├── productsData.js
+│ ├── App.jsx
+│ └── main.jsx
+│
+└── package.json
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|------|------------|
+| Frontend | React (Vite) |
+| Styling | Pure CSS |
+| Routing | React Router |
+| State | Context API |
+| Hosting | Vercel |
+| Build Tool | Vite |
+
+---
+
+## 🚀 Deployment (Already Live)
+
+This project is deployed on **Vercel**.
+
+Build settings used:
+Build: npm run build
+Output: dist
+Framework: Vite
+
+
+Your live production link:  
+👉 https://boost-labs.vercel.app/
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Aryan-52/BoostLabs.git
+cd BoostLabs
