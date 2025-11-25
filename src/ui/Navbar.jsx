@@ -22,7 +22,7 @@ function Navbar() {
 
         {/* CLICKABLE LOGO */}
         <Link to="/" className="logo-area">
-          <img src="/src/assets/logo.png" alt="BoostLabs" className="logo-img" />
+          <img src="/assets/logo.png" alt="BoostLabs" className="logo-img" />
           <span className="logo-text">BoostLabs</span>
         </Link>
 

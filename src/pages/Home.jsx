@@ -10,7 +10,7 @@ export default function Home() {
     <>
       {/* HERO SECTION */}
       <section className="hero">
-        <img src="/src/assets/hero_car.png" className="hero-bg" />
+        <img src="/assets/hero_car.png" className="hero-bg" />
 
         <div className="hero-content">
           <h1>BoostLabs — Porsche Performance Parts</h1>

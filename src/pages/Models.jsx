@@ -9,10 +9,10 @@ function Models() {
   const [errorModelName, setErrorModelName] = useState("");
 
   const models = [
-    { name: "Porsche 911 GT3 RS", short: "GT3", image: "/src/assets/model_911_gt3rs.png" },
-    { name: "Porsche 918 Spyder", short: "Turbo S", image: "/src/assets/model_918spyder.png" },
-    { name: "Porsche Cayman", short: "911", image: "/src/assets/model_cayman.png" },
-    { name: "Porsche Targa", short: "GT4", image: "/src/assets/model_targa.png" },
+    { name: "Porsche 911 GT3 RS", short: "GT3", image: "/assets/model_911_gt3rs.png" },
+    { name: "Porsche 918 Spyder", short: "Turbo S", image: "/assets/model_918spyder.png" },
+    { name: "Porsche Cayman", short: "911", image: "/assets/model_cayman.png" },
+    { name: "Porsche Targa", short: "GT4", image: "/assets/model_targa.png" },
   ];
 
   const handleModelClick = (m) => {
